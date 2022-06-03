@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.footer {
+    background-color:rgb(35, 35, 49);
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Righteous', cursive;
+}
+
+
+.footer-text {
+    font-family: 'Righteous', cursive;
+    color: #fff;
+    font-size: 20px;
+    margin: 10px 0;
+    text-decoration: none;
+    display: block;
+}
+
+.footer-text:hover {
+    color: rgb(161, 207, 207);
+}
+
+.footer__social-links-group {
+    margin-top: 30px;
+    display: flex;
+}
+
+.footer__social-link {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    filter: brightness(3) invert(1);
+}
+

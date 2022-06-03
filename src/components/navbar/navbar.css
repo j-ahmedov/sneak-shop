@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.navbar {
+    display: flex;
+    padding: 10px 30px;
+    font-family: 'Righteous', cursive;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  }
+  
+  .navbar__logo {
+    margin-top: 3px;
+    font-size: 24px;
+  }
+  
+  .navbar__menu_common {
+    display: inline-block;
+    margin-top: 5px;
+  }
+  
+  .navbar__menu-item {
+    text-decoration: none;
+    color: #000;
+    font-size: 22px;
+    margin-left: 30px;
+  }
+  
+  .navbar__menu-item:hover {
+    color: #1e1777;
+  }
+  
+  .navbar__icons {
+    display: flex;
+  }
+  
+  .navbar__icon {
+    margin-left: 25px;
+    margin-top: 6px;
+    width: 25px;
+    height: 25px;
+  }
+  
+  
+  .button {
+    background-color: #473ebd;
+    border: none;
+    color: white;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .navbar__button {
+    padding: 10px 32px;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 30px;
+  }
+  
+  .navbar__button:hover {
+    background-color: #4b45a8;
+  }
+  

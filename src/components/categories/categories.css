@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.category-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+ 
+ .card {
+     width: 200px;
+     height: 250px;
+     margin-left: 30px;
+     margin-top: 50px;
+     padding: 20px;
+     border-radius: 10px;
+     transition: transform .3s;
+     background-color: #fdfdfd;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
+ .category-card:hover {
+     transform: scale(1.1);
+ }
+
+ .category-card__category-image-box {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+ }
+
+ .category-card__category-image {
+     width: 100%;
+ }
+
+ .category-card__category-title-box {
+     padding: 5px;
+     margin-top: 20px;
+     text-align: center;
+     font-family: 'Righteous', cursive;
+     font-size: 20px;
+     
+}

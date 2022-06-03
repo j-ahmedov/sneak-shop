@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.business-page {
+    height: 100vh;
+    padding: 100px 100px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Righteous', cursive;
+}
+
+.business-page__heading {
+    font-size: 32px;
+}
+
+.business__paragraph {
+    width: 500px;
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+.business-page__start-button {
+    margin-top: 30px;
+    padding: 12px 30px;
+    font-size: 20px;
+}
+
+.business-page__start-button:hover {
+    background-color: #4b45a8;
+}
+
+
+.business-page__apply-form {
+    
+    height: 400px;
+    padding: 30px 60px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.business-page__apply-label {
+    font-size: 32px;
+    text-align: center;
+
+}
+
+.form-text {
+    font-size: 22px;
+    font-family: 'Righteous', cursive;
+}
+
+.form-input { 
+    width: 100%;
+    margin-top: 5px;
+    font-size: 18px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    stroke-width: 0.1px;
+    border: #c7c7c7;
+    border-style: solid;
+}
+
+.business-page__form-section {
+    padding-top: 20px;
+}
+
+.business-page__apply-form-buttons {
+    padding-top: 25px;
+}
+
+.business-page__cancel-button {
+    width: 100px;
+    background-color: #f03c3c;
+    font-size: 14px;
+    padding: 10px 0px;
+}
+
+.business-page__cancel-button:hover {
+    background-color: #e23838;
+}
+
+.business-page__apply-button {
+    width: 100px;
+    background-color: #1dbf73;
+    font-size: 14px;
+    margin-left: 20px;
+    padding: 10px 0px;
+}
+
+.business-page__apply-button:hover {
+    background-color: #1cb16b;
+}
