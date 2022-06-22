@@ -1,0 +1,42 @@
+.shop-card {
+    width: 220px;
+    height: 300px;
+}
+
+.shop-card__image-box {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+
+.shop-card__image {
+    width: 100%;
+}
+
+.shop-card__title {
+    margin-top: 30px;
+}
+
+.shop-card__price-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.shop-card__icons-box {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+}
+
+
+.shop-card__button {
+    background-color: transparent;
+    border: none;
+    margin-left: 15px;
+}

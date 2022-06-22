@@ -7,8 +7,9 @@ import './index.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Categories from './components/categories/Categories';
 import Shop from './components/shop/Shop';
-import Popup from 'reactjs-popup';
+// import Popup from 'reactjs-popup';
 import { useState } from 'react';
+
 
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
         <div className="app-navbar">
           <Navbar showSignIn= { showSignIn }/>
         </div>
-    <Sign_in isShowSignIn = { isShowSignIn }/>
+        <Sign_in isShowSignIn = { isShowSignIn }/>
 
         
         <div className="main-content">
@@ -51,7 +52,7 @@ function App() {
           <Footer/>
         </div>
       
-    </div>
+      </div>
 
     </Router>
     
